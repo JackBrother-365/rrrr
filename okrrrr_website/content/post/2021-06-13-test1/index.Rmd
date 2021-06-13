@@ -1,0 +1,19 @@
+---
+title: "test1"
+author: "R package build"
+date: '2021-06-13'
+slug: test1
+categories: []
+tags: []
+---
+```{r echo=FALSE}
+library(ggplot2)
+graph <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   color = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(color = FALSE) +
+  theme_bw()
+print(graph)
+```
