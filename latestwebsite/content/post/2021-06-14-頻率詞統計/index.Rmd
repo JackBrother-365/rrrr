@@ -9,7 +9,11 @@ archives: '2021'
 ---
 * 歌名頻率詞統計 (5 decades Billboard hot 100)
 ![](images/timeless_word_title.png)
+* 文字雲
+![](images/all_time_wordcloud_title.jpeg)
 * 歌詞頻率詞統計 (5 decades Billboard hot 100)
 ![](images/timeless_word.png)
+* 文字雲
+![](images/all_time_wordcloud.jpeg)
 * 百大金曲頻率詞統計 (2006-2020)
 ![](images/Words Frequency.png)
