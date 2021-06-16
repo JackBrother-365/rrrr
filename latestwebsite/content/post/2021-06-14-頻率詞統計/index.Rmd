@@ -17,3 +17,7 @@ archives: '2021'
 ![](images/all_time_wordcloud.jpeg)
 * 百大金曲頻率詞統計 (2006-2020)
 ![](images/Words Frequency.png)
+* 不同時代的Unique Words (by TF-IDF)
+![](images/TF-IDF.png)
+* 不同時代的歌詞長度 (已剔除stop words)
+![](images/words_count.png)
