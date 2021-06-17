@@ -154,7 +154,7 @@ plt_wf <- df_tidy %>%
   labs(x = '', y = 'Word Count', title = 'Word frequency in relation to decades') +
   theme_bw()
 #算平均
-df_tidy %>%
+df_mean_length <- df_tidy %>%
     group_by(Artist, Title, decade) %>%
     count()  %>%
     group_by(decade)%>%
@@ -396,7 +396,7 @@ df_ratio_decade_title <- df_tidy_title %>%
            decade = reorder(decade, ratio))
 
 df_ratio_decade$decade = factor(df_ratio_decade$decade, levels = c("1970s", "1980s", "1990s", "2000s", "2010s~now") )
-plt_positive_ratio_dc_title <- df_ratio_decade %>%
+plt_positive_ratio_dc_title <- df_ratio_decade_title %>%
   ggplot(aes(decade, ratio)) +
   geom_point() +
   geom_line(aes(group="")) +
