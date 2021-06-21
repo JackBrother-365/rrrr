@@ -50,8 +50,8 @@ df_lyrics %>%
 
 #最終的Dataframe
 df_All <- df_Title %>%
-    mutate(Artist = df_Artist$Artist,
-           Lyrics = df_Lyrics$Lyrics)
+    mutate(Artist = df_Artist$Artist) #,
+           #Lyrics = df_Lyrics$Lyrics)
 
 
 ```
